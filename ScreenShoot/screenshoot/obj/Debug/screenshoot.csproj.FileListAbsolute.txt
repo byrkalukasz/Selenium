@@ -1,0 +1,11 @@
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\screenshoot.exe.config
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\screenshoot.exe
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\screenshoot.pdb
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\SeleniumExtras.PageObjects.dll
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\WebDriver.dll
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\bin\Debug\WebDriver.xml
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\obj\Debug\screenshoot.csprojAssemblyReference.cache
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\obj\Debug\screenshoot.csproj.CoreCompileInputs.cache
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\obj\Debug\screenshoot.csproj.CopyComplete
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\obj\Debug\screenshoot.exe
+E:\Programy\Testy\Selenium - kurs\screenshoot\screenshoot\obj\Debug\screenshoot.pdb

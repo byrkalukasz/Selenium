@@ -12,3 +12,17 @@ C:\Users\redik\source\repos\POM\POM\bin\Debug\nunit.framework.dll
 C:\Users\redik\source\repos\POM\POM\bin\Debug\nunit.framework.pdb
 C:\Users\redik\source\repos\POM\POM\bin\Debug\nunit.framework.xml
 C:\Users\redik\source\repos\POM\POM\obj\Debug\POM.csprojAssemblyReference.cache
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\POM.exe.config
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\POM.exe
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\POM.pdb
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\nunit.framework.dll
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\WebDriver.dll
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\nunit.framework.pdb
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\nunit.framework.xml
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\WebDriver.xml
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\obj\Debug\POM.csprojAssemblyReference.cache
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\obj\Debug\POM.csproj.CoreCompileInputs.cache
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\obj\Debug\POM.csproj.CopyComplete
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\obj\Debug\POM.exe
+C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\obj\Debug\POM.pdb

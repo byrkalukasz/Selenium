@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actions.cs" />
-    <Compile Include="Case\LoginInvalidPassword.cs" />
-    <Compile Include="Case\LoginInvalidUsername.cs" />
+    <Compile Include="Scenario\LoginInvalidPassword.cs" />
+    <Compile Include="Scenario\LoginInvalidUsername.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="LoginFormPost.cs" />
@@ -71,15 +71,13 @@
     <Compile Include="Pages\TestCasePage.cs" />
     <Compile Include="Pages\TestScenarioPage.cs" />
     <Compile Include="Pages\UsernameFieldPost.cs" />
-    <Compile Include="ValidLogin.cs" />
+    <Compile Include="Case\ValidLogin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scenario\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Selenium.Firefox.WebDriver.0.23.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('..\packages\Selenium.Firefox.WebDriver.0.23.0\build\Selenium.Firefox.WebDriver.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
