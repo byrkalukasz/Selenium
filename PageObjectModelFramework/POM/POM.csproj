@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actions.cs" />
+    <Compile Include="FailTest.cs" />
     <Compile Include="Scenario\LoginInvalidPassword.cs" />
     <Compile Include="Scenario\LoginInvalidUsername.cs" />
     <Compile Include="Config.cs" />

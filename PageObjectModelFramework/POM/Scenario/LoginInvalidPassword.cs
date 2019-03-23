@@ -13,6 +13,7 @@ namespace POM
         [OneTimeSetUp]
         public void Initialize()
         {
+            Directory.CreateDirectory(Directory.GetCurrentDirectory() + @"\screenshoot\");
             Actions.InitialDriver();
             Navigation.LoginFormThroughMenu();
         }

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="6" result="Failed" total="6" passed="5" failed="1" inconclusive="0" skipped="0" asserts="6" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2019-03-23 09:26:26Z" end-time="2019-03-23 09:27:13Z" duration="47.285974">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\bin\Debug\POM.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1014" name="POM.exe" fullname="POM.exe" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2019-03-23 09:26:26Z" end-time="2019-03-23 09:27:13Z" duration="46.819048" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\packages\NUnit.ConsoleRunner.3.9.0\tools" machine-name="DESKTOP-AU4UUB7" user="redik" user-domain="DESKTOP-AU4UUB7" culture="pl-PL" uiculture="pl-PL" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\packages\NUnit.ConsoleRunner.3.9.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="2584" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1015" name="POM" fullname="POM" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2019-03-23 09:26:26Z" end-time="2019-03-23 09:27:13Z" duration="46.807361" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="FailTest" fullname="POM.FailTest" classname="POM.FailTest" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2019-03-23 09:26:26Z" end-time="2019-03-23 09:26:39Z" duration="12.955020" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1001" name="PasswordLessThan5Char" fullname="POM.FailTest.PasswordLessThan5Char" methodname="PasswordLessThan5Char" classname="POM.FailTest" runstate="Runnable" seed="2109188041" result="Failed" start-time="2019-03-23 09:26:37Z" end-time="2019-03-23 09:26:37Z" duration="0.169841" asserts="1">
+          <failure>
+            <message><![CDATA[  Expected string length 16 but was 56. Strings differ at index 0.
+  Expected: "Succesful login!"
+  But was:  "Password should not be empty / length be between 5 to 12"
+  -----------^
+]]></message>
+            <stack-trace><![CDATA[   w POM.FailTest.PasswordLessThan5Char() w C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\FailTest.cs:wiersz 24
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Expected string length 16 but was 56. Strings differ at index 0.
+  Expected: "Succesful login!"
+  But was:  "Password should not be empty / length be between 5 to 12"
+  -----------^
+]]></message>
+              <stack-trace><![CDATA[   w POM.FailTest.PasswordLessThan5Char() w C:\Users\redik\Documents\GitHub\Selenium\PageObjectModelFramework\POM\FailTest.cs:wiersz 24
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1002" name="LoginInvalidPassword" fullname="POM.LoginInvalidPassword" classname="POM.LoginInvalidPassword" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-03-23 09:26:39Z" end-time="2019-03-23 09:26:49Z" duration="10.477151" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="ParameterizedMethod" id="0-1004" name="PasswordLessThan5Char" fullname="POM.LoginInvalidPassword.PasswordLessThan5Char" classname="POM.LoginInvalidPassword" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-03-23 09:26:48Z" end-time="2019-03-23 09:26:48Z" duration="0.215279" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1003" name="PasswordLessThan5Char()" fullname="POM.LoginInvalidPassword.PasswordLessThan5Char()" methodname="PasswordLessThan5Char" classname="POM.LoginInvalidPassword" runstate="Runnable" seed="790905095" result="Passed" start-time="2019-03-23 09:26:48Z" end-time="2019-03-23 09:26:48Z" duration="0.214597" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1006" name="PasswordMoreThan12Char" fullname="POM.LoginInvalidPassword.PasswordMoreThan12Char" classname="POM.LoginInvalidPassword" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-03-23 09:26:48Z" end-time="2019-03-23 09:26:48Z" duration="0.168894" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1005" name="PasswordMoreThan12Char()" fullname="POM.LoginInvalidPassword.PasswordMoreThan12Char()" methodname="PasswordMoreThan12Char" classname="POM.LoginInvalidPassword" runstate="Runnable" seed="114657111" result="Passed" start-time="2019-03-23 09:26:48Z" end-time="2019-03-23 09:26:48Z" duration="0.168779" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1007" name="LoginInvalidUsername" fullname="POM.LoginInvalidUsername" classname="POM.LoginInvalidUsername" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-03-23 09:26:49Z" end-time="2019-03-23 09:27:00Z" duration="10.861008" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="ParameterizedMethod" id="0-1009" name="UsernameLessThan5Char" fullname="POM.LoginInvalidUsername.UsernameLessThan5Char" classname="POM.LoginInvalidUsername" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-03-23 09:26:59Z" end-time="2019-03-23 09:26:59Z" duration="0.201963" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1008" name="UsernameLessThan5Char()" fullname="POM.LoginInvalidUsername.UsernameLessThan5Char()" methodname="UsernameLessThan5Char" classname="POM.LoginInvalidUsername" runstate="Runnable" seed="1447540691" result="Passed" start-time="2019-03-23 09:26:59Z" end-time="2019-03-23 09:26:59Z" duration="0.200678" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1011" name="UsernameMoreThan12Char" fullname="POM.LoginInvalidUsername.UsernameMoreThan12Char" classname="POM.LoginInvalidUsername" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-03-23 09:26:59Z" end-time="2019-03-23 09:26:59Z" duration="0.171086" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1010" name="UsernameMoreThan12Char()" fullname="POM.LoginInvalidUsername.UsernameMoreThan12Char()" methodname="UsernameMoreThan12Char" classname="POM.LoginInvalidUsername" runstate="Runnable" seed="1486028837" result="Passed" start-time="2019-03-23 09:26:59Z" end-time="2019-03-23 09:26:59Z" duration="0.169389" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1012" name="ValidLogin" fullname="POM.ValidLogin" classname="POM.ValidLogin" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-03-23 09:27:00Z" end-time="2019-03-23 09:27:13Z" duration="12.510132" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="0-1013" name="SuccesLogin" fullname="POM.ValidLogin.SuccesLogin" methodname="SuccesLogin" classname="POM.ValidLogin" runstate="Runnable" seed="607037225" result="Passed" start-time="2019-03-23 09:27:00Z" end-time="2019-03-23 09:27:13Z" duration="12.509955" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
